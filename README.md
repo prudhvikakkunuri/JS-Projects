@@ -1,5 +1,6 @@
 -- __Create the employees table__
-``` CREATE TABLE employees (
+```Sql
+CREATE TABLE employees (
     employee_id SERIAL PRIMARY KEY,
     name VARCHAR(100),
     department VARCHAR(50),
@@ -16,7 +17,8 @@ INSERT INTO employees (name, department, salary) VALUES
 ('Emma Wilson', 'Marketing', 59000),
 ('Alex Lee', 'Sales', 58000),
 ('Sarah Adams', 'Sales', 58000),
-('Ryan Clark', 'Sales', 61000); ```
+('Ryan Clark', 'Sales', 61000); 
+```
 
 
 /*
