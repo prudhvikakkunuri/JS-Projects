@@ -1,4 +1,4 @@
--- __ Create the employees table __
+-- __Create the employees table__
 ``` CREATE TABLE employees (
     employee_id SERIAL PRIMARY KEY,
     name VARCHAR(100),
