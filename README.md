@@ -61,3 +61,25 @@ where MAX(salary)<(
 ```
 
 
+-- Approach 2
+-- Window function dense_rank
+```Sql
+SELECT *
+FROM
+(	SELECT *,
+	DENSE_RANK() OVER( ORDER BY salary DESC) drn	
+	FROM employees
+) as subquery
+WHERE drn = 2 
+```
+-- Approach 2
+-- Window function dense_rank
+```Sql
+SELECT *
+FROM
+(	SELECT *,
+	DENSE_RANK() OVER( ORDER BY salary DESC) drn	
+	FROM employees
+) as subquery
+WHERE drn = 2 
+```
