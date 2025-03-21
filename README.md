@@ -1,3 +1,4 @@
+# Write the SQL query to find the second highest salary
 ## __Create the employees table__
 
 ```Sql
@@ -24,7 +25,7 @@ INSERT INTO employees (name, department, salary) VALUES
 
 /*
 
-Write the SQL query to find the second highest salary
+
 
 */
 
