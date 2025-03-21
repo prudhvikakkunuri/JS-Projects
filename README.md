@@ -27,8 +27,7 @@ INSERT INTO employees (name, department, salary) VALUES
 
 
 
--- Approach 1
-
+## Approach 1 Using LIMIT & OFFSET
 ```Sql 
 SELECT * FROM employees 
 ORDER BY salary DESC
@@ -39,8 +38,7 @@ LIMIT 1 OFFSET 1;
 
 
 
--- Approach 2
--- Window function dense_rank
+## Approach 2 Window function dense_rank
 ```Sql
 SELECT *
 FROM
@@ -51,8 +49,7 @@ FROM
 WHERE drn = 2 
 ```
 
--- Approach 3
--- Using max() aggregate function 
+## Approach 3 Using max() aggregate function 
 ```Sql
 SELECT * FROM employees
 where MAX(salary)<(
