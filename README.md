@@ -23,15 +23,8 @@ INSERT INTO employees (name, department, salary) VALUES
 ```
 
 
-/*
 
 
-
-*/
-
--- -------------------------
--- My Solution
--- -------------------------
 
 
 -- Approach 1
