@@ -51,5 +51,13 @@ FROM
 WHERE drn = 2 
 ```
 
+-- Approach 3
+-- Using max() aggregate function 
+```Sql
+SELECT * FROM employees
+where MAX(salary)<(
+      SELECT MAX(salary) FROM employees
+)
+```
 
 
