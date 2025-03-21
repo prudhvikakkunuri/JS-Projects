@@ -1,4 +1,5 @@
--- __Create the employees table__
+## __Create the employees table__
+
 ```Sql
 CREATE TABLE employees (
     employee_id SERIAL PRIMARY KEY,
@@ -41,10 +42,7 @@ LIMIT 1 OFFSET 1;
 ```
 
 
--- ADDED new records
-INSERT INTO employees
-VALUES
-(11, 'zara', 'it', 63000)
+
 
 
 -- Approach 2
